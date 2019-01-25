@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Fira Code';
+    src: url('eot/FiraCode-Light.eot');
+    src: url('eot/FiraCode-Light.eot') format('embedded-opentype'),
+         url('woff2/FiraCode-Light.woff2') format('woff2'),
+         url('woff/FiraCode-Light.woff') format('woff'),
+         url('ttf/FiraCode-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+code {
+	font-family: Fira Code, courier;
+	background-color: rgb(25, 27, 31);
+	color: white;
+	padding: 5px;
+	border-left: 3px solid green;
+	font-size: 0.75em;
+}
+.tag {
+	color: green;
+}
+.attr {
+	color: rgb(110, 117, 17);
+}
+.val {
+	color: rgb(153, 34, 153);
+}
+			
